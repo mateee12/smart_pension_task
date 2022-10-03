@@ -44,3 +44,7 @@ generate report of certain type from data source file                           
 
 ### Other examples
 - print to generic stdout `./parser.rb generate_report --source-path spec/log_data/webserver.log --source-type log --report PagesOrderedByVisits --output-view StdoutGeneric`
+
+# Application Architecture
+parser.lib and content in /lib folder is following **layered architectural pattern**.
+![Alt text](smart_pension_task_layered_architecture.drawio.png?raw=true "Application Layered pattern")
