@@ -1,0 +1,17 @@
+require: rubocop-rspec
+RSpec/ExampleLength:
+  Max: 20
+RSpec/MultipleExpectations:
+  Max: 5
+RSpec/DescribeClass:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Metrics/MethodLength:
+  Max: 20
+RSpec/NamedSubject:
+  Enabled: false
+Naming/HeredocDelimiterNaming:
+  Enabled: false
